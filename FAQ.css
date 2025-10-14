@@ -1,0 +1,108 @@
+body{
+    background-color: #1a1818;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  padding: 40px 90px;
+  position: relative;
+}
+
+.Brand-Logo {
+  display: flex;
+  align-items: center;
+   display:flex;
+    justify-items: center;
+    width:45px;
+    height:45px;
+    
+}
+
+.Brand-Logo img {
+  margin-right: 10px;
+  width: 250px;
+  height: 100px;
+  color: #000000;
+}
+
+.Brand-Title {
+  font-size: 3rem;
+  color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -200px;
+    display:flex;
+    text-align: center;
+    justify-items: center;
+}
+
+.links-container {
+  display: flex;
+  gap: 20px;
+}
+
+.link,
+.btn-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+}
+
+.link:hover,
+.btn-link:hover {
+  color: #00bbff;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .links-container {
+    display: none;
+    flex-direction: column;
+    background-color: #;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .links-container.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
