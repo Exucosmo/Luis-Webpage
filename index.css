@@ -80,7 +80,6 @@ body {
 }
 .Video-Games, .Anime, .Movies, .Comic-Books, .Music, .TV-Shows {
     margin: 0 auto;
-    width: {width of image};
     float: left;
     width: 33.33%;
     padding: 10px;
@@ -124,7 +123,6 @@ body {
   .links-container {
     display: none;
     flex-direction: column;
-    background-color: #;
     position: absolute;
     top: 60px;
     right: 0;
